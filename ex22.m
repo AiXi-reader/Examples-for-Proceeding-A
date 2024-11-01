@@ -3,7 +3,11 @@ T = 1; % Time range
 N = 10000; % Number of discrete time steps
 dt = T/N; % Time step size
 t = linspace(0, T, N); % Time vector
-
+% Coefficients of system 
+gamma = 3; 
+a = 1; 
+b = 0.5; 
+g = 0.1; 
 % Initial conditions
 u0 = 2; % Initial state u
 v0 = 2; % Initial state v
